@@ -2,10 +2,20 @@
   "name": "react-usedebuglog",
   "version": "1.0.0",
   "description": "Use Javascript console.log as hook",
-  "main": "index.js",
+  "main": "build/index.js",
   "author": "Anthony Tran Van",
   "license": "MIT",
+  "scripts": {
+    "build": "babel src -d build"
+  },
   "dependencies": {
     "react": "^16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/plugin-transform-react-jsx": "^7.12.7",
+    "@babel/preset-env": "^7.12.7"
   }
 }
