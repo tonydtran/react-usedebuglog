@@ -3,5 +3,5 @@ var DebugLogProvider = require('./Context');
 
 module.exports = {
   useDebugLog: useDebugLog,
-  DebugLogProvider: DebugLogProvider
+  DebugLogProvider: DebugLogProvider.default
 }
