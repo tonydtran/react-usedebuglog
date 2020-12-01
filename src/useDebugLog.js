@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from 'react'
 import { DebugLogContext } from './Context'
 
-const useDebugLog = (componentName, isEnabled) => {
+export const useDebugLog = (componentName, isEnabled) => {
   if (!componentName || typeof componentName !== 'string') {
     throw new Error('A componentName must be provided')
   }
@@ -67,5 +67,3 @@ const useDebugLog = (componentName, isEnabled) => {
     trace
   }
 }
-
-export default useDebugLog
