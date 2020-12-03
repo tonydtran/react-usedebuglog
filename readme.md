@@ -2,7 +2,7 @@
 
 ## Get Started
 ```
-yarn add https://github.com/tonydtran/react-usedebuglog.git
+yarn add react-usedebuglog
 ```
 ## Usage
 First, import `DebugLogProvider` in your app root:
