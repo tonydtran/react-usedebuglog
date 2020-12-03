@@ -1,6 +1,6 @@
 {
   "name": "react-usedebuglog",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Use Javascript console.log as hook",
   "main": "dist/index.js",
   "author": "Anthony Tran Van",
@@ -14,8 +14,8 @@
     "build": "babel src -d dist"
   },
   "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.8",
