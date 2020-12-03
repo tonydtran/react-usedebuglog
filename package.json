@@ -1,6 +1,6 @@
 {
   "name": "react-usedebuglog",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Use Javascript console.log as hook",
   "main": "dist/index.js",
   "author": "Anthony Tran Van",
